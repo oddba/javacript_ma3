@@ -1,0 +1,34 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+Javascript Code Style is basically how we write our code. By this we don’t mean ordinary syntax, but how we chose to indent our code, line breaks and so on. Some prefer to use tabs, other prefers space. Some like to have open lines in between certain statements, while others have their code tightly put together in chunks. There is no right way to do it, but there are certain rules for best practice.
+
+2. What is a Regular Expression?
+A Regular Expression is a way to validate that something matches a pattern. We can for instance use this on telephone numbers to check that the content is only numbers and that the length is set to a certain number of numbers. We use this to ensure that the right input has been made to match the criteria’s set.
+
+3. What does the .random() method do?
+It returns a number between 0 and 1. For instance 0.5100722072938983.
+
+4. What does the .sort() method do?
+It sorts an array alphabetically. ['B', 'C', 'A'] would return A, B, C.
+
+5. What does the .reverse() method do?
+It reverses the order of elements in an array. ['B', 'C', 'A'] would return A, C, B.
+
+6. List two examples of bad JavaScript code.
+a)
+number = 5; // Not using the var statement (Bad code)
+var number = 5; // Using var statement (Good code)
+
+b) Repeatedly declaring a new function instead of using the new statement, to make use of a function already declared for the same purpose.
+
+7. What data types can a JSON object contain?
+String, number, object, array, boolean and null.
+
+8. What is minifying JavaScript Code?
+It’s basically cleaning up your code. For instance we can reuse variables or functions if applicable. It’s meaning is not to to change their functionality.
+
+9. What is a global variable?
+It’s a variable that we can reach from anywhere inside our code. A global variable can be reused by anything in our code. Global variables can for instance never be declared inside a function. There are still ways to reach it, but it's not global anymore.
